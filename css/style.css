@@ -2030,7 +2030,7 @@ span.error {
 
 @media (max-width: 991.98px) {
   .gsap-reveal.gsap-reveal-filter {
-    overflow: visible !important;
+    overflow: hidden !important;
   }
 }
 
