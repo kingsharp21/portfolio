@@ -5,6 +5,25 @@
   --white-color: #f3f2f4;
   --blue-color: #420fe7;
 }
+.skill_svg{
+  width: 50%;
+}
+#skills-section{
+  position: relative;
+  height: auto;
+  /* background-color: var(--dark-color); */
+}
+.parallax-inner p{
+  /* background-color: var(--peach-color); */
+    position: absolute;
+    color: var(--white-color);
+    z-index: -1;
+    left: 0px;
+    right: 0px;
+    font-weight: 900;
+    user-select: none;
+    opacity: .4;
+}
 body {
   font-family: "Raleway", sans-serif;
   color: #fff;
@@ -79,7 +98,7 @@ a, a:hover {
 .unslate_co--footer {
   position: fixed !important;
   width: 100%;
-  background-color: #191919;
+  background-color: var(--dark-color);
   color: #fff;
   left: 0;
   right: 0;
