@@ -3,7 +3,7 @@
   --dark-color: #18033c;
   --peach-color: #eea1be;
   --white-color: #f3f2f4;
-  --blue-color: #420fe7;
+  --blue-color: rgb(66, 15, 231);
 }
 .skill_svg{
   width: 50%;
@@ -59,7 +59,7 @@ body.offcanvas:before {
 }
 
 body, .unslate_co--site-inner {
-  background: #420fe7;
+  background: var(--blue-color);
 }
 
 ::-moz-selection {
@@ -769,8 +769,7 @@ a, a:hover {
 }
 
 .cover-v1 .heading {
-  font-size: clamp(3.5rem, 5vw, 8vw);
-  /* font-size: 5rem; */
+  font-size: 5rem;
   font-weight: 900;
   color: #fff;
 }
@@ -1146,6 +1145,9 @@ a, a:hover {
 @media (max-width: 767.98px) {
   .unslate_co--section {
     padding: 2rem 0;
+  }
+  .skills__word-clouds{
+    display: none;
   }
 }
 
